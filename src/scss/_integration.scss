@@ -1,0 +1,40 @@
+.integration__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.integration__blocks {
+  display: flex;
+  flex-direction: column;
+}
+
+.integration__block {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 35px;
+  }
+  &-img {
+    height: 42px;
+    width: 42px;
+  }
+  &-text {
+    margin-left: 40px;
+  }
+  &-title {
+    font-size: 25px;
+    margin-bottom: 5px;
+  }
+  &-subtitle {
+    font-size: 15px;
+    max-width: 400px;
+  }
+}
+
+.integration__animation {
+  video {
+    width: 500px;
+    height: 555px;
+  }
+}

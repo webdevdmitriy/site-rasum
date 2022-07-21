@@ -1,0 +1,42 @@
+.ambassadors {
+  &__title {
+    margin-bottom: 10px;
+  }
+  &__subtitle {
+    max-width: 336px;
+    font-size: 17px;
+  }
+}
+
+.ambassadors__logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 800px;
+  margin: 0 auto;
+}
+
+//размеры изображений
+.ambassadors__logo {
+  &_lab {
+    width: 220px;
+    height: 143px;
+  }
+  &_pesc {
+    width: 220px;
+    height: 143px;
+  }
+  &_sit {
+    width: 299px;
+    height: 96px;
+  }
+  &_per {
+    width: 309px;
+    height: 71px;
+  }
+  &_spec {
+    width: 334px;
+    height: 116px;
+  }
+}

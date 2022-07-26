@@ -4,39 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="/src/css/onepage-scroll.css" />
+    <script rel="stylesheet" href="/src/js/onepagescroll.min.js"></script>  -->
     <link rel="stylesheet" href="/src/css/style.css" />
+
     <title>РАЗУМ</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <a class="logo" href="#">
-            <picture class="logo_img">
-              <source srcset="images/logo-mpbile.png" media="(max-width: 640px)" />
-              <img src="./images/logo.png" alt="" />
-            </picture>
-          </a>
-          <nav class="menu">
-            <ul class="munu__list">
-              <li class="menu__list-item">
-                <a href="#" class="menu__list-link"></a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#" class="menu__list-link"></a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#" class="menu__list-link"></a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#" class="menu__list-link"></a>
-              </li>
-              <li class="menu__list-item">
-                <a href="#" class="menu__list-link"></a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+      <div class="header__inner">
+        <a class="logo" href="#">
+          <picture class="logo_img">
+            <source srcset="images/logo-mpbile.png" media="(max-width: 640px)" />
+            <img src="src/images/logo.png" alt="" />
+          </picture>
+        </a>
+        <nav class="menu">
+          <ul class="munu__list">
+            <li class="menu__list-item">
+              <a href="#now" class="menu__list-link">РАЗУМ сейчас</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#application" class="menu__list-link">Применение возможностей</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#beneficiation" class="menu__list-link">Разумное обогощение</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#tools" class="menu__list-link">Инструменты</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#integration" class="menu__list-link">Внедрение</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#articles" class="menu__list-link">ИИ - технологии</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#ambassadors" class="menu__list-link">Амбассадоры</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#callback" class="menu__list-link">Узнать больше</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
 
@@ -59,7 +69,7 @@
             управлять сложным
           </h1>
           <p class="top__subtitle">с помощью инновационных интеллектуальных цифровых технологий</p>
-          <a href="" class="top__btn"> Узнать больше </a>
+          <a href="#callback"" class="top__btn"> Узнать больше </a>
         </div>
       </div>
     </section>
@@ -76,12 +86,9 @@
           </div>
         </div>
       </div>
-      <section class="page-section now">
+      <section class="page-section now" id="now">
         <div class="container">
-          <h2 class="title now__title">
-            «РАЗУМ» сейчас
-            <img class="now__line" src="src/images/now/line.svg" alt="" />
-          </h2>
+          <h2 class="title now__title">«РАЗУМ» сейчас</h2>
           <div class="now__inner">
             <div class="now__block">
               <img class="now__block-img" src="src/images/now/block.svg" alt="" />
@@ -116,7 +123,7 @@
           </div>
         </div>
       </section>
-      <section class="page-section application">
+      <section class="page-section application" id="application">
         <div class="container">
           <div class="application__inner">
             <div class="title">Применение возможностей</div>
@@ -135,8 +142,8 @@
               </div>
             </div>
             <div class="application__brain">
-              <!-- <img src="src/images/application/brain.png" alt="" /> -->
-              <video class="" playsinline="true" muted loop autoplay src="src/video/brain.mp4" type="video/mp4"></video>
+              <img src="src/video/brain.gif" alt="" />
+              <!-- <video class="" playsinline="true" muted loop autoplay src="src/video/brain.mp4" type="video/mp4"></video> -->
             </div>
             <div class="application__block">
               <div class="application__item">
@@ -152,10 +159,12 @@
                 <h3 class="aplication__item-title">МАШИНОСТРОЕНИЕ</h3>
               </div>
             </div>
+
+            <p class="application__text">«РАЗУМ» может изменить понимание оптимизации технологических операций</p>
           </div>
         </div>
       </section>
-      <section class="page-section beneficiation">
+      <section class="page-section beneficiation" id="beneficiation">
         <div class="container">
           <h2 class="title">Разумное обогащение</h2>
           <div class="beneficiation__inner">
@@ -193,7 +202,7 @@
           </div>
         </div>
       </section>
-      <section class="page-section tools">
+      <section class="page-section tools" id="tools">
         <div class="container">
           <h2 class="title">Инструменты – цифровые двойники</h2>
           <div class="tools__inner">
@@ -202,18 +211,23 @@
               решения для улучшения всех процессов.
             </div>
             <div class="tools__animation">
-              <video class="" playsinline="true" muted loop autoplay src="/src/video/dub.mp4" type="video/mp4"></video>
+              <img src="/src/video/dub.gif" alt="">
+              <!-- <video class="" playsinline="true" muted loop autoplay src="/src/video/dub.mp4" type="video/mp4"></video> -->
             </div>
+         
           </div>
         </div>
       </section>
-      <section class="page-section integration">
+      <section class="page-section integration" id="integration">
         <div class="container">
           <h2 class="title">Внедрение</h2>
           <div class="integration__inner">
             <div class="integration__animation">
-              <video class="" playsinline="true" muted loop autoplay src="/src/video/machine.mp4" type="video/mp4"></video>
+              <!-- <video class="" playsinline="true" muted loop autoplay src="/src/video/machine.mp4" type="video/mp4"></video> -->
+              <img class="start" src="src/video/start.gif" alt="">
+              <img class= 'main' src="src/video/main.gif" alt="" style="display: none;">
             </div>
+            <div class="imgs"></div>
             <div class="integration__blocks">
               <div class="integration__block">
                 <img src="src/images/integration/icon-1.svg" alt="" class="integration__block-img" />
@@ -261,7 +275,7 @@
           </div>
         </div>
       </section>
-      <section class="page-section articles">
+      <section class="page-section articles" id="articles">
         <div class="container">
           <div class="articles__inner">
             <div class="articles__block">
@@ -282,7 +296,7 @@
           </div>
         </div>
       </section>
-      <section class="page-section ambassadors">
+      <section class="page-section ambassadors" id="ambassadors">
         <div class="container">
           <h2 class="title ambassadors__title">Амбассадоры</h2>
           <p class="ambassadors__subtitle">Компании, обладающие правом распространения и интеграции продукта</p>
@@ -297,7 +311,7 @@
           </div>
         </div>
       </section>
-      <section class="page-section callback">
+      <section class="page-section callback" id="callback">
         <div class="container">
           <div class="callback__inner">
             <div class="callback__block">
@@ -307,7 +321,11 @@
                 <input type="text" placeholder="Email" />
                 <input type="text" placeholder="Номер телефона" />
 
-                <div class="callback__check"><input type="checkbox" name="check" /> <label for="check">Согласен с обработкой персональных данных</label></div>
+                <div class="callback__check">
+                  <input type="checkbox" id="check" /> 
+                  <label for="check"></label> 
+                  <label class = 'callback__data' for="check">Согласен с обработкой персональных данных</label>
+                </div>
                 <button class="btn callback__btn" type="submit">Пуск</button>
               </form>
             </div>
@@ -329,8 +347,8 @@
         </div>
       </div>
     </footer>
-    <!-- 
-    <script src="src/js/script.js"></script> -->
     <script src="src/js/main.js"></script>
+    <!-- <script src="src/js/script.js"></script> -->
+
   </body>
 </html>

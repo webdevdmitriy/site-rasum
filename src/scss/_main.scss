@@ -25,6 +25,7 @@ body {
   font-style: normal;
   color: #fff;
   background-color: black;
+  position: relative;
 }
 
 main {
@@ -36,11 +37,15 @@ main {
 
 .page-section {
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 70px;
+  overflow-x: hidden;
+  position: relative;
 }
 .title {
+  font-family: 'Montserrat';
+  font-weight: 600;
   display: inline-block;
-  font-size: 31px;
+  font-size: 36px;
   position: relative;
   margin-bottom: 50px;
   &:not(.title_without-line):after {

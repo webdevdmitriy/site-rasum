@@ -6,6 +6,22 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  src: local('Montserrat-SemiBold'), url('../fonts/Montserrat/Montserrat-SemiBold.woff') format('woff'), url('../fonts/Montserrat/Montserrat-SemiBold.eot') format('eot'),
+    url('../fonts/Montserrat/Montserrat-SemiBold.ttf') format('ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  src: local('Montserrat Medium'), url('../fonts/Montserrat/Montserrat Medium.woff') format('woff'), url('../fonts/Montserrat/Montserrat Medium.eot') format('eot'),
+    url('../fonts/Montserrat/Montserrat Medium.ttf') format('ttf');
+  font-weight: 500;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'Roboto';

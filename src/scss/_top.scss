@@ -28,6 +28,9 @@
 }
 
 .top {
+  &__logo {
+    margin-bottom: 25px;
+  }
   &__title {
     font-family: 'Montserrat';
     font-weight: 700;
